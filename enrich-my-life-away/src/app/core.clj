@@ -1,5 +1,5 @@
 (ns app.core
-  (:require [foobar.reddit :as reddit] [foobar.irc :as irc]))
+  (:require [app.reddit :as reddit] [app.irc :as irc]))
 
 (defn format-post-for-irc
   [reddit-new-post-data]
